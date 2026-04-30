@@ -1,13 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --base-font-family: "Inter";
-  --accent-font-family: "Press Start 2P";
+  --accent-font-family: "PressStart2P";
   --base-font-wght: 410;
   --accent-font-wght-normal: 400;
   --accent-font-wght-bold: 715;
   --color: #fff;
   --accent-color: #000;
-  --animation-fill-color: #ff0000;
+  --dialog-background-color: rgb(0 0 0 / 0.75);
+  --animation-fill-color: #f00;
   --contour-color: #000;
   --page-gradient:
     repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
@@ -15,6 +16,8 @@
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
   --header-logo-font-size: clamp(3.063rem, 2.71rem + 1.5vw, 4.063rem);
   --header-title-font-size: clamp(0.875rem, 0.677rem + 0.85vw, 1.438rem);
-  --card-watermark-text-stroke: #ffffff;
+  --card-watermark-text-stroke: #fff;
   --page-width: clamp(375px, 100%, 700px);
+  --header-padding-x: clamp(1rem, -1.344rem + 10vw, 7.656rem);
+  --header-padding-y: clamp(7.625rem, 7.449rem + 0.75vw, 8.125rem);
 }
