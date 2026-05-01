@@ -65,13 +65,13 @@
 
 .card-img-wrapper {
   position: relative;
+  border-top: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .card-image {
   display: block;
   width: 100%;
-  border-top: 2px solid var(--accent-color);
-  border-bottom: 2px solid var(--accent-color);
   object-fit: cover;
   object-position: center;
 }
@@ -82,7 +82,6 @@
   opacity: 0.5;
   color: var(--accent-color);
   font-family: var(--accent-font-family), fantasy;
-
   font-size: 14px;
   text-transform: uppercase;
   text-shadow:
@@ -175,10 +174,8 @@
   outline: none;
 }
 
-.card__like-button:focus-visible,
-.save-button:focus-visible,
-.dialog-button:focus-visible {
-  box-shadow: 2px 2px 0 0 var(--accent-color);
+.button:focus-visible {
+    box-shadow: 2px 2px 0 0 var(--accent-color);
 }
 
 .card__like-button {
@@ -297,6 +294,7 @@
 .like-wrapper {
   display: flex;
   justify-content: end;
+  gap: 7px;
 }
 
 .like-icon {
